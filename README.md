@@ -1,6 +1,11 @@
 # example-voting-app_k8s
 
 ```
+  $ kubectl create ns vote
+```
+
+
+```
   $ kubectl create -f example-voting-app_k8s/k8s-specifications/
 deployment "db" created
 service "db" created
