@@ -7,12 +7,12 @@ metadata:
 spec:
   replicas: 1
   selector:
-    matchLabels:
-      app: db
+    ****
+      ****: db
   template:
     metadata:
-      labels:
-        app: db
+      ****
+        ****: db
     spec:
       containers:
       - image: postgres:9.4
@@ -25,7 +25,7 @@ spec:
         - name: POSTGRES_HOST_AUTH_METHOD
           value: trust
         ports:
-        - containerPort: 5432
+        - containerPort: ****
           name: postgres
         volumeMounts:
         - mountPath: /var/lib/postgresql/data
