@@ -7,16 +7,16 @@ metadata:
 spec:
   replicas: 1
   selector:
-    matchLabels:
-      app: result
+    ****
+      ****: result
   template:
     metadata:
-      labels:
-        app: result
+      ****:
+        ****: result
     spec:
       containers:
       - image: dockersamples/examplevotingapp_result:before
         name: result
         ports:
-        - containerPort: 80
+        - containerPort: ****
           name: result
