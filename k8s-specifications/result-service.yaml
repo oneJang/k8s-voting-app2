@@ -5,10 +5,10 @@ metadata:
     app: result
   name: result
 spec:
-  type: NodePort
+  type: ****
   ports:
   - name: "result-service"
-    port: 5001
-    targetPort: 80
+    port: ****
+    targetPort: ****
   selector:
-    app: result
+    ****
